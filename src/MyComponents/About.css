@@ -1,0 +1,30 @@
+.about-wrapper {
+  min-height: calc(100vh - 120px); /* footer ke liye space */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 80px 20px 120px; /* bottom padding footer ko niche push karegi */
+  background-color: #f5f7fa;
+}
+
+.about-card {
+  max-width: 800px;
+  background: #54ddf5;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.about-card h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: #222;
+  text-align: center;
+}
+
+.about-card p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+  text-align: justify;
+}
